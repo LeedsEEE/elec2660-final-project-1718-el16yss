@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCCD8DBB1FC647180082D96A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD8DBA1FC647180082D96A /* AppDelegate.m */; };
+		DCCD8DBE1FC647180082D96A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD8DBD1FC647180082D96A /* FirstViewController.m */; };
+		DCCD8DC11FC647180082D96A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD8DC01FC647180082D96A /* SecondViewController.m */; };
+		DCCD8DC41FC647180082D96A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCD8DC21FC647180082D96A /* Main.storyboard */; };
+		DCCD8DC61FC647180082D96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCD8DC51FC647180082D96A /* Assets.xcassets */; };
+		DCCD8DC91FC647180082D96A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCD8DC71FC647180082D96A /* LaunchScreen.storyboard */; };
+		DCCD8DCC1FC647180082D96A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD8DCB1FC647180082D96A /* main.m */; };
+		DCCD8DD61FC647180082D96A /* ELEC_2660ApplicantionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD8DD51FC647180082D96A /* ELEC_2660ApplicantionTests.m */; };
+		DCCD8DE11FC647180082D96A /* ELEC_2660ApplicantionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD8DE01FC647180082D96A /* ELEC_2660ApplicantionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCCD8DD21FC647180082D96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCCD8DAE1FC647180082D96A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCCD8DB51FC647180082D96A;
+			remoteInfo = "ELEC 2660Applicantion";
+		};
+		DCCD8DDD1FC647180082D96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCCD8DAE1FC647180082D96A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCCD8DB51FC647180082D96A;
+			remoteInfo = "ELEC 2660Applicantion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCCD8DB61FC647180082D96A /* ELEC 2660Applicantion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ELEC 2660Applicantion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCD8DB91FC647180082D96A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCCD8DBA1FC647180082D96A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCCD8DBC1FC647180082D96A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DCCD8DBD1FC647180082D96A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DCCD8DBF1FC647180082D96A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DCCD8DC01FC647180082D96A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DCCD8DC31FC647180082D96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCCD8DC51FC647180082D96A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCCD8DC81FC647180082D96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCCD8DCA1FC647180082D96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCD8DCB1FC647180082D96A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCCD8DD11FC647180082D96A /* ELEC 2660ApplicantionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ELEC 2660ApplicantionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCD8DD51FC647180082D96A /* ELEC_2660ApplicantionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELEC_2660ApplicantionTests.m; sourceTree = "<group>"; };
+		DCCD8DD71FC647180082D96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCD8DDC1FC647180082D96A /* ELEC 2660ApplicantionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ELEC 2660ApplicantionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCD8DE01FC647180082D96A /* ELEC_2660ApplicantionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELEC_2660ApplicantionUITests.m; sourceTree = "<group>"; };
+		DCCD8DE21FC647180082D96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCCD8DB31FC647180082D96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD8DCE1FC647180082D96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD8DD91FC647180082D96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCCD8DAD1FC647180082D96A = {
+			isa = PBXGroup;
+			children = (
+				DCCD8DB81FC647180082D96A /* ELEC 2660Applicantion */,
+				DCCD8DD41FC647180082D96A /* ELEC 2660ApplicantionTests */,
+				DCCD8DDF1FC647180082D96A /* ELEC 2660ApplicantionUITests */,
+				DCCD8DB71FC647180082D96A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCCD8DB71FC647180082D96A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD8DB61FC647180082D96A /* ELEC 2660Applicantion.app */,
+				DCCD8DD11FC647180082D96A /* ELEC 2660ApplicantionTests.xctest */,
+				DCCD8DDC1FC647180082D96A /* ELEC 2660ApplicantionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCCD8DB81FC647180082D96A /* ELEC 2660Applicantion */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD8DB91FC647180082D96A /* AppDelegate.h */,
+				DCCD8DBA1FC647180082D96A /* AppDelegate.m */,
+				DCCD8DBC1FC647180082D96A /* FirstViewController.h */,
+				DCCD8DBD1FC647180082D96A /* FirstViewController.m */,
+				DCCD8DBF1FC647180082D96A /* SecondViewController.h */,
+				DCCD8DC01FC647180082D96A /* SecondViewController.m */,
+				DCCD8DC21FC647180082D96A /* Main.storyboard */,
+				DCCD8DC51FC647180082D96A /* Assets.xcassets */,
+				DCCD8DC71FC647180082D96A /* LaunchScreen.storyboard */,
+				DCCD8DCA1FC647180082D96A /* Info.plist */,
+				DCCD8DCB1FC647180082D96A /* main.m */,
+			);
+			path = "ELEC 2660Applicantion";
+			sourceTree = "<group>";
+		};
+		DCCD8DD41FC647180082D96A /* ELEC 2660ApplicantionTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD8DD51FC647180082D96A /* ELEC_2660ApplicantionTests.m */,
+				DCCD8DD71FC647180082D96A /* Info.plist */,
+			);
+			path = "ELEC 2660ApplicantionTests";
+			sourceTree = "<group>";
+		};
+		DCCD8DDF1FC647180082D96A /* ELEC 2660ApplicantionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD8DE01FC647180082D96A /* ELEC_2660ApplicantionUITests.m */,
+				DCCD8DE21FC647180082D96A /* Info.plist */,
+			);
+			path = "ELEC 2660ApplicantionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCCD8DB51FC647180082D96A /* ELEC 2660Applicantion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCD8DE51FC647180082D96A /* Build configuration list for PBXNativeTarget "ELEC 2660Applicantion" */;
+			buildPhases = (
+				DCCD8DB21FC647180082D96A /* Sources */,
+				DCCD8DB31FC647180082D96A /* Frameworks */,
+				DCCD8DB41FC647180082D96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ELEC 2660Applicantion";
+			productName = "ELEC 2660Applicantion";
+			productReference = DCCD8DB61FC647180082D96A /* ELEC 2660Applicantion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCCD8DD01FC647180082D96A /* ELEC 2660ApplicantionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCD8DE81FC647180082D96A /* Build configuration list for PBXNativeTarget "ELEC 2660ApplicantionTests" */;
+			buildPhases = (
+				DCCD8DCD1FC647180082D96A /* Sources */,
+				DCCD8DCE1FC647180082D96A /* Frameworks */,
+				DCCD8DCF1FC647180082D96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCCD8DD31FC647180082D96A /* PBXTargetDependency */,
+			);
+			name = "ELEC 2660ApplicantionTests";
+			productName = "ELEC 2660ApplicantionTests";
+			productReference = DCCD8DD11FC647180082D96A /* ELEC 2660ApplicantionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCCD8DDB1FC647180082D96A /* ELEC 2660ApplicantionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCD8DEB1FC647180082D96A /* Build configuration list for PBXNativeTarget "ELEC 2660ApplicantionUITests" */;
+			buildPhases = (
+				DCCD8DD81FC647180082D96A /* Sources */,
+				DCCD8DD91FC647180082D96A /* Frameworks */,
+				DCCD8DDA1FC647180082D96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCCD8DDE1FC647180082D96A /* PBXTargetDependency */,
+			);
+			name = "ELEC 2660ApplicantionUITests";
+			productName = "ELEC 2660ApplicantionUITests";
+			productReference = DCCD8DDC1FC647180082D96A /* ELEC 2660ApplicantionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCCD8DAE1FC647180082D96A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "University of Leeds";
+				TargetAttributes = {
+					DCCD8DB51FC647180082D96A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DCCD8DD01FC647180082D96A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCCD8DB51FC647180082D96A;
+					};
+					DCCD8DDB1FC647180082D96A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCCD8DB51FC647180082D96A;
+					};
+				};
+			};
+			buildConfigurationList = DCCD8DB11FC647180082D96A /* Build configuration list for PBXProject "ELEC 2660Applicantion" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCCD8DAD1FC647180082D96A;
+			productRefGroup = DCCD8DB71FC647180082D96A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCCD8DB51FC647180082D96A /* ELEC 2660Applicantion */,
+				DCCD8DD01FC647180082D96A /* ELEC 2660ApplicantionTests */,
+				DCCD8DDB1FC647180082D96A /* ELEC 2660ApplicantionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCCD8DB41FC647180082D96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD8DC91FC647180082D96A /* LaunchScreen.storyboard in Resources */,
+				DCCD8DC61FC647180082D96A /* Assets.xcassets in Resources */,
+				DCCD8DC41FC647180082D96A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD8DCF1FC647180082D96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD8DDA1FC647180082D96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCCD8DB21FC647180082D96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD8DC11FC647180082D96A /* SecondViewController.m in Sources */,
+				DCCD8DBB1FC647180082D96A /* AppDelegate.m in Sources */,
+				DCCD8DCC1FC647180082D96A /* main.m in Sources */,
+				DCCD8DBE1FC647180082D96A /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD8DCD1FC647180082D96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD8DD61FC647180082D96A /* ELEC_2660ApplicantionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD8DD81FC647180082D96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD8DE11FC647180082D96A /* ELEC_2660ApplicantionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCCD8DD31FC647180082D96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCCD8DB51FC647180082D96A /* ELEC 2660Applicantion */;
+			targetProxy = DCCD8DD21FC647180082D96A /* PBXContainerItemProxy */;
+		};
+		DCCD8DDE1FC647180082D96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCCD8DB51FC647180082D96A /* ELEC 2660Applicantion */;
+			targetProxy = DCCD8DDD1FC647180082D96A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCCD8DC21FC647180082D96A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCD8DC31FC647180082D96A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCCD8DC71FC647180082D96A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCD8DC81FC647180082D96A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCCD8DE31FC647180082D96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCCD8DE41FC647180082D96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCCD8DE61FC647180082D96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ELEC 2660Applicantion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.Leeds.ELEC-2660Applicantion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCCD8DE71FC647180082D96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ELEC 2660Applicantion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.Leeds.ELEC-2660Applicantion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCCD8DE91FC647180082D96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ELEC 2660ApplicantionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.Leeds.ELEC-2660ApplicantionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELEC 2660Applicantion.app/ELEC 2660Applicantion";
+			};
+			name = Debug;
+		};
+		DCCD8DEA1FC647180082D96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ELEC 2660ApplicantionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.Leeds.ELEC-2660ApplicantionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELEC 2660Applicantion.app/ELEC 2660Applicantion";
+			};
+			name = Release;
+		};
+		DCCD8DEC1FC647180082D96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ELEC 2660ApplicantionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.Leeds.ELEC-2660ApplicantionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ELEC 2660Applicantion";
+			};
+			name = Debug;
+		};
+		DCCD8DED1FC647180082D96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ELEC 2660ApplicantionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.Leeds.ELEC-2660ApplicantionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ELEC 2660Applicantion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCCD8DB11FC647180082D96A /* Build configuration list for PBXProject "ELEC 2660Applicantion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD8DE31FC647180082D96A /* Debug */,
+				DCCD8DE41FC647180082D96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCD8DE51FC647180082D96A /* Build configuration list for PBXNativeTarget "ELEC 2660Applicantion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD8DE61FC647180082D96A /* Debug */,
+				DCCD8DE71FC647180082D96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCD8DE81FC647180082D96A /* Build configuration list for PBXNativeTarget "ELEC 2660ApplicantionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD8DE91FC647180082D96A /* Debug */,
+				DCCD8DEA1FC647180082D96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCD8DEB1FC647180082D96A /* Build configuration list for PBXNativeTarget "ELEC 2660ApplicantionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD8DEC1FC647180082D96A /* Debug */,
+				DCCD8DED1FC647180082D96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCCD8DAE1FC647180082D96A /* Project object */;
+}
